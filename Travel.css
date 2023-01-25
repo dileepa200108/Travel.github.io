@@ -1,0 +1,296 @@
+.body{
+    margin: 0%;
+}
+
+
+/*Buttons */
+
+.button1{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    width: 5cm;
+    font-size: 18px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 200mm;
+    padding: 12px 32px;
+    transition-duration: 0.7s;
+
+}
+.button1:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+
+}
+.search{
+    height: 20.5mm;
+    border: none;
+    width: 4cm;
+    background-color: rgb(156, 50, 50);
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 1mm;
+    transition-duration: 0.7s;
+}
+.search:hover{
+    background-color: rgb(241, 31, 31);
+    color: rgb(255, 255, 255);
+    
+}
+.high1{
+    margin-top: 0.6cm;
+    border: none;
+    height: 1.3cm;
+    width: 4cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    transition-duration: 0.1s;
+    background-color: white;
+    color: black;
+    align-items: center;
+    border: 1px solid black;
+    
+}
+.high1:hover{
+
+    border: 2px solid rgb(0, 0, 0);
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Layer 1 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''*/
+
+/* Header ===================================================*/
+.layer1{
+    display: flex;
+    background-image: url("resort.jpg");
+    background-size: 1920px;
+    
+    height: 21cm;
+    flex-wrap: wrap;
+}
+.layer1>div{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    
+    
+}
+.layer1 .header{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+
+}
+.header .eng{
+    
+    color: white;
+    font-weight: 600;
+    margin-top: 1cm;
+    margin-left: 7cm;
+    font-size: 23px;
+}
+.header .home{
+    color: rgb(227, 230, 233);
+    font-size: 18px;
+    margin-left: 13cm;
+    margin-top: 1cm;
+    font-weight: 600;
+}
+.header .about{
+    padding-left: 1.7cm;
+    padding-top: 1cm;
+    font-size: 18px;
+    color: aliceblue;
+
+}
+.header .tour{
+    padding-left: 1.7cm;
+    padding-top: 1cm;
+    font-size: 18px;
+    color: aliceblue;
+
+}
+.header .hotels{
+    padding-left: 1.7cm;
+    padding-top: 1cm;
+    font-size: 18px;
+    color: aliceblue;
+
+}
+.header .blog{
+    padding-left: 1.7cm;
+    padding-top: 1cm;
+    font-size: 18px;
+    color: aliceblue;
+
+}
+.header .contac{
+    padding-left: 1.7cm;
+    padding-top: 1cm;
+    font-size: 18px;
+    color: aliceblue;
+
+}
+.header .addlist{
+    padding-left: 1.7cm;
+    padding-top: 0.7cm;
+    font-size: 18px;
+    color: aliceblue;
+
+}
+
+/* Mid ===================================================*/
+
+.layer1 .mid{
+    display: flex;
+    
+    flex-direction: column;
+}
+.mid .title{
+    font-size: 60px;
+    font-weight: bolder;
+    color: aliceblue;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 7cm;
+    padding-bottom: 2cm;
+    margin-top: 2cm;
+}
+
+#titlep2{
+    font-weight: normal;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 0%;
+}
+#dis{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 19.5px;
+    padding-top: 0.3cm;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.layer1 input[type=text] {
+    padding-left: 8mm;
+    margin-top: 1cm;
+    border: none;
+    font-size: 17px;
+    height: 2cm;
+    width: 8.6cm;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  #dis2{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 19.5px;
+    padding-top: 1cm;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.layer1 .blank{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.blank .b01{
+    height: 2cm;
+    width: 87mm;
+    margin-left: 7cm;
+    background-color: aliceblue;
+    margin-top: 4mm;
+    
+
+}
+.blank .b02{
+    height: 2cm;
+    width: 87mm;
+    margin-left: 1cm;
+    background-color: aliceblue;
+    margin-top: 4mm;
+
+}
+
+
+/* Mid =======================================================================================*/
+
+/* Layer 2 =======================================================================================*/
+.layer2{
+    display: flexbox;
+    height: 13cm;
+    background-color: aliceblue;
+}
+.layer2 .cards{
+    margin-bottom: 10cm;
+    margin-left: 7cm;
+}
+.layer2 .title{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 23px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 1cm;
+    padding-left: 2.9cm;
+}
+.title .tr{
+    padding-left: 5.6cm;
+}
+.title .ag{
+    padding-left: 4.2cm;
+}
+.title .our{
+    padding-left: 5.7cm;
+}
+#ded{
+    padding-left: 1cm;
+}
+.layer2 .des{
+    display: flex;
+    flex-direction: row;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+.des .tr{
+    padding-left: 2.1cm;
+    padding-top: 0.7cm;
+}
+.des .ag{
+    padding-left: 5cm;
+}
+.des .our{
+    padding-left: 4.7cm;
+}
+.des .supp{
+    padding-left: 5.5cm;
+    padding-top: 0.7cm;
+}
